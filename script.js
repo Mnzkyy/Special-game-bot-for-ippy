@@ -227,7 +227,7 @@ function startTypewriter() {
 
 Special untuk ippy!
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai apapun itu! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
+Gak kerasa, udah genap satu bulan aja kita. Hari ini aku pengen kamu dapet sesuatu yang spesial buat ngerayain kita yang udah satu bulan ini. Semoga langgeng terus dan semoga segala keinginan kita tercapai apapun itu! Aku selalu percaya kalau kita bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
 
 Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga setiap harinya kamu sama aku, kamu makin bahagia. aku juga berdoa semua kamu makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
 
@@ -266,7 +266,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Ippy,<br><br>Have a nice day!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai apapun itu! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga setiap harinya kamu sama aku, kamu makin bahagia. aku juga berdoa semua kamu makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hi Ippy,<br><br>Have a nice day!<br><br>Gak kerasa, udah genap satu bulan aja kita. Hari ini aku pengen kamu dapet sesuatu yang spesial buat ngerayain kita yang udah satu bulan ini. Semoga langgeng terus dan semoga segala keinginan kita tercapai apapun itu! Aku selalu percaya kalau kita bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga setiap harinya kamu sama aku, kamu makin bahagia. aku juga berdoa semua kamu makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
